@@ -15,8 +15,8 @@ The light intensity tester consists of two parts:
 ## GUI Curve Generator
 The GUI program is written entirely in Python. The GUI is created using Tkinter while the plotting system uses MatPlotlib. 
 To create a curve, follow this process:  
-&emsp;&emsp;**1.** Run the Python file for the GUI. Make sure *MainFile.py* and *SettingsFile.py* are in the same folder. The GUI should look like this:  
-&emsp;&emsp;<img src="ReadMe_Data/Capture.PNG" width="700" height="400">  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1.** Run the Python file for the GUI. Make sure *MainFile.py* and *SettingsFile.py* are in the same folder. The GUI should look like this:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="ReadMe_Data/Capture.PNG" width="700" height="400">  
 	
 ## Arduino System
 The arduino system is written entirely in C. 
