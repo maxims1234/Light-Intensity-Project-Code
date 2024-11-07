@@ -1,17 +1,22 @@
 # Light-Intensity-Project-Code
-Repository for the GUI and Arduino code.\
+Repository for the GUI and Arduino system.\
 Written by maxims@vt.edu 
 
+## Table of contents
+* [General info](#general-info)
+* [GUI Curve Generator](#gui-curve-generator)
+* [Arduino System](#arduino-system)
 
-# 1. GUI System
-## 1.1 GUI Usage
-### 1.1.1 GUI Limitations/Considerations 
-Things to keep in mind when using GUI:
-- **If you start plot with a polynomial, you cannot use the back button**
-- **y-axis is limited to 80 because of hardware LED limit**
-### 1.1.2 GUI Screenshots
-
-
-Here is a labeled screenshot of what every button does:
-
-![Screenshot of GUI.](ReadMe_Data/Capture.PNG)
+## General info
+The light intensity tester consists of two parts:
+1. The GUI used to create the user-defined curve
+2. The Arduino microcontroller used to generate the light
+	
+## GUI Curve Generator
+The GUI program is written entirely in Python. The GUI is created using Tkinter while the plotting system uses MatPlotlib. 
+To create a curve, follow this process:  
+&emsp;&emsp;**1.** Run the Python file for the GUI. Make sure *MainFile.py* and *SettingsFile.py* are in the same folder. The GUI should look like this:  
+&emsp;&emsp;<img src="ReadMe_Data/Capture.PNG" width="700" height="400">  
+	
+## Arduino System
+The arduino system is written entirely in C. 
