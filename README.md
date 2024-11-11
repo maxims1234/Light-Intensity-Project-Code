@@ -5,7 +5,7 @@ Written by maxims@vt.edu
 ## Table of contents
 * [General info](#general-info)
 * [GUI Curve Generator](#gui-curve-generator)
-* [Raspberry Pi System](#Raspberry Pi-system)
+* [Raspberry Pi System](#Raspberry-Pi-system)
 
 ## General info
 The light intensity tester consists of two parts:
