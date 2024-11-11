@@ -37,4 +37,5 @@ To create a curve, follow this process:
 > 2. The refresh button needs to be pressed anytime the Xlims are changed. 
 
 ## Arduino System
-The arduino system is written entirely in C. 
+The arduino system is written entirely in C (Arduino C). 
+The system works by loading the *data.txt* file and reading the first 3 data points for calibration (Static Values). The system then reads the luminosity magnitude making sure to "sleep" according to the step size provided by the GUI. 
