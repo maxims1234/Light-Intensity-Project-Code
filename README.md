@@ -32,6 +32,7 @@ To create a curve, follow this process:
 > 3. The output data is saved in a *.txt* file. A possible rewrite of the `def save_file():` function can be done to support *.csv* which may be faster than the current *.txt* format.
 
 > [!CAUTION]
+> Coding issues that may cause a headache: 
 > 1. If starting the plot in the *Polynomial* mode, this curve cannot be deleted using the **Back** button. Instead, the **Reset** button needs to be pressed.
 > 2. The refresh button needs to be pressed anytime the Xlims are changed. 
 
