@@ -38,4 +38,7 @@ To create a curve, follow this process:
 
 ## Raspberry Pi System
 The Raspberry Pi system is written entirely in C (Raspberry Pi C). 
-The system works by loading the *data.txt* file and reading the first 3 data points for calibration (Static Values). The system then reads the luminosity magnitude making sure to "sleep" according to the step size provided by the GUI. 
+The system works by loading the *data.txt* file and reading the first 3 data points for calibration (Static Values). The system then reads the luminosity magnitude making sure to "sleep" according to the step size provided by the GUI.  
+  
+Here is a diagram of the circuit used for the the system:
+![Data Image](READMEData/Circuit.PNG)
